@@ -4,12 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
 }
 
 :root{
-    --body: #FFFFFF;
+    --body: #212121;
+    --header: #000000;
 
     --text: #777777;
 }
@@ -18,4 +22,8 @@
 body{
     background: var(--body);
     color: var(--text);
+}
+
+.dark-mode{
+    --body: #FFFFFF;
 }
