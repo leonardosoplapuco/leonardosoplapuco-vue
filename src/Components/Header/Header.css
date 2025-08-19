@@ -21,6 +21,8 @@ header{
 
 .logo h2{
     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .menu-container{
@@ -32,4 +34,8 @@ header{
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.menu-link{
+    color: var(--white);
 }

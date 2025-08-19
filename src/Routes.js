@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Services from './Pages/Services/Services.vue'
+import Directivas from './Pages/Directivas/Directivas.vue'
 import Homepage from './Pages/Homepage.vue'
 import NoPage from './Pages/NoPage.vue'
 
 const routes = [
     { path: '/', component: Homepage },
-    { path: '/servicios/', component: Services },
+    { path: '/directivas/', component: Directivas },
     { path: '/:pathMatch(.*)*', name: 'NoPage', component: NoPage }
 ]
 

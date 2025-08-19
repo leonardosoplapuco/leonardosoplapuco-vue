@@ -24,12 +24,12 @@
                 <ul class="menu">
                     <li>
                         <router-link to="/">
-                            <h2>Inicio</h2>
+                            <h2 class="menu-link">Iniciar proyecto</h2>
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="/servicios/">
-                            <h2>Servicios</h2>
+                        <router-link to="/directivas/">
+                            <h2 class="menu-link">Directivas</h2>
                         </router-link>
                     </li>
                 </ul>

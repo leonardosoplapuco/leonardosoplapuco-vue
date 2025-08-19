@@ -16,6 +16,8 @@
     --header: #000000;
 
     --text: #777777;
+
+    --white: #FFFFFF;
 }
 
 
@@ -26,4 +28,35 @@ body{
 
 .dark-mode{
     --body: #FFFFFF;
+}
+
+main{
+    width: calc(100% - 40px);
+    max-width: 2000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main > h1{
+    margin-bottom: 20px;
+}
+
+main > div{
+    width: 100%;
+    padding: 20px;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+main > div > h3{
+    color: #999;
+}
+
+main > div > code{
+    background: #000;
+    border: 1px solid #555;
+    padding: 10px;
 }

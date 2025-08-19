@@ -4,4 +4,5 @@
 
 <template>
     <Homepage/>
+    <router-view/>
 </template>

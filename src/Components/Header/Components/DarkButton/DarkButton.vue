@@ -4,17 +4,14 @@
         @click="toggle"
         @keydown.space.prevent="toggle"
         @keydown.enter.prevent="toggle"
-        class="dark-button" :class="{ active: enabled }"
-        >
-            <span class="sr-only">Activar modo oscuro</span>
-            <span class="knob" />
+        class="dark-button" :class="{ active: enabled }">
+            <span class="knob"></span>
         </div>
     </div>
 </template>
 
 <script setup>
     import { ref, onMounted } from 'vue';
-
     import './DarkButton.css';
 
     const enabled = ref(false)
