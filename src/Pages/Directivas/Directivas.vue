@@ -3,6 +3,7 @@
     import Header from '../../Components/Header/Header.vue';
     import vmodel from './Ejercicios/v-model.vue';
     import vfor from './Ejercicios/v-for.vue';
+    import vbind from './Ejercicios/v-bind.vue';
 
     export default {
         name: 'Directivas',
@@ -10,6 +11,7 @@
             Header,
             vmodel,
             vfor,
+            vbind
         }
     }
 
@@ -59,6 +61,12 @@
             <h3>"v-for"</h3>
 
             <vfor/>
+        </div>
+
+        <div>
+            <h3>"v-bind"</h3>
+
+            <vbind/>
         </div>
     </main>
 
