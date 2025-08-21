@@ -1,11 +1,15 @@
 <script>
 
     import Header from '../../Components/Header/Header.vue';
+    import vmodel from './Ejercicios/v-model.vue';
+    import vfor from './Ejercicios/v-for.vue';
 
     export default {
         name: 'Directivas',
         components: {
-            Header
+            Header,
+            vmodel,
+            vfor,
         }
     }
 
@@ -43,6 +47,18 @@
                     -}<br>
                 &lt;/script&gt;<br>
             </code>
+        </div>
+
+        <div>
+            <h3>"v-model"</h3>
+
+            <vmodel/>
+        </div>
+
+        <div>
+            <h3>"v-for"</h3>
+
+            <vfor/>
         </div>
     </main>
 
