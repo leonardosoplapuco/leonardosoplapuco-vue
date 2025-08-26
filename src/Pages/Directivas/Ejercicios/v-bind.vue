@@ -20,7 +20,7 @@
                         "nombre": "angeles",
                         "estado": false
                     }
-                ]
+                ],
             };
         }
     }
@@ -35,6 +35,8 @@
             <p v-bind:class="usuario.estado ? 'online' : 'offline'">{{ usuario.estado ? 'online' : 'offline' }}</p>
         </li>
     </ul>
+
+    <hr/> <br>
 
 </template>
 

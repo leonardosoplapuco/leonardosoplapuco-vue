@@ -4,6 +4,9 @@
     import vmodel from './Ejercicios/v-model.vue';
     import vfor from './Ejercicios/v-for.vue';
     import vbind from './Ejercicios/v-bind.vue';
+    import vbind2 from './Ejercicios/v-bind-2.vue';
+    import vif from './Ejercicios/v-if.vue';
+    import vfor2 from './Ejercicios/v-for-2.vue';
 
     export default {
         name: 'Directivas',
@@ -11,7 +14,10 @@
             Header,
             vmodel,
             vfor,
-            vbind
+            vbind,
+            vbind2,
+            vif,
+            vfor2
         }
     }
 
@@ -67,6 +73,24 @@
             <h3>"v-bind"</h3>
 
             <vbind/>
+        </div>
+
+        <div>
+            <h3>"v-bind-2"</h3>
+
+            <vbind2/>
+        </div>
+
+        <div>
+            <h3>"v-if"</h3>
+
+            <vif/>
+        </div>
+
+        <div>
+            <h3>"v-for-2"</h3>
+
+            <vfor2/>
         </div>
     </main>
 
